@@ -2,7 +2,8 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
 
         <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -30,11 +31,6 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#education" class="nav__link">
-                                <i class='bx bx-book nav__icon'></i> Education
-                            </a>
-                        </li>
-                        <li class="nav__item">
                             <a href="#skills" class="nav__link">
                                 <i class='bx bx-receipt nav__icon'></i> Compétences
                             </a>
@@ -46,15 +42,9 @@
                         </li>
                         <li class="nav__item">
                             <a href="#certificats" class="nav__link">
-                                <i class='bx bx-award nav__icon'></i> Certificats
+                                <i class='bx bx-award nav__icon'></i> Diplomes
                             </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#references" class="nav__link">
-                                <i class='bx bx-link-external nav__icon'></i> References
-                            </a>
-                        </li>
-                        
+                        </li>                      
                     </ul>
                 </div>
                 <div class="nav__toggle" id="nav-toggle">
@@ -75,7 +65,7 @@
                                 <h1 class="home__title">LAMINE <b>BENCHIKH</b></h1>
                                 <h3 class="home__profession"> <b> Développeur Web </b> </h3>
                                     <div>
-                                        <a href="./assets/pdf/ResumeCv.pdf"class="home__button-movil">Télécharger</a>
+                                        <a href="./assets/pdf/CV-BENCHIKH.pdf"class="home__button-movil">Télécharger</a>
                                     </div>
                             </div>
                             <div class="home__address bd-grid">
@@ -91,8 +81,9 @@
                                 <span class="home__information">
                                     <i class='bx bx-phone home__icon'></i> +213 (0) 699-342-056
                                 </span>
-
-                               
+                                <span class="home__information">
+                                    <i class='bx bx-shield-alt home__icon'></i> Dispense militaire
+                                </span>  
                             </div>
                         </div>
                         <!-- Theme change button -->
@@ -120,9 +111,9 @@
                             _blank" class="social__link">
                                 <i class='bx bxl-github social__icon'></i> @ML-BENCHIKH
                             </a>
-                            <a href="https://github.com/ML-BENCHIKH" target="
+                            <a href="https://twitter.com/ML_BENCHIKH" target="
                             _blank" class="social__link">
-                            <i class='bx bxl-twitter social__icon'></i> @ML-BENCHIKH
+                            <i class='bx bxl-twitter social__icon'></i> @ML_BENCHIKH
                             </a>
                         </div>
                     </section>
@@ -131,51 +122,11 @@
                     <section class="profile section" id="profile">
                         <h2 class="section-title">Profile</h2>
                         <p class="profile__description">
-                            
+                            Développeur web avec une experience de 2 ans, j'aime la façon de voir un code propre avec une face de développement des projets bien organisée "Trello , Github , Tasks priority". 
+                            Trop actif dans le domaine et je s'adapte rapidement avec les nouvelles technologies.
                         </p>
                     </section>
                     
-                    <!--========== EDUCATION ==========-->
-                    <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-                        <div class="education__container bd_grid">
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Master informatique</h3>
-                                    <span class="education__studies">Université Badji Mokhtar ANNABA</span>
-                                    <span class="education__year">2017 - 2019</span>
-                                </div>
-                            </div>
-                                <div class="education__content">
-                                    <div class="education__time">
-                                        <span class="education__rounder"></span>
-                                        <span class="education__line"></span>
-                                    </div>
-                                    <div class="education__data bd-grid">
-                                        <h3 class="education__title">Licence informatique</h3>
-                                        <span class="education__studies">Université Badji Mokhtar ANNABA</span>
-                                        <span class="education__year">2014 - 2017</span>
-                                    </div>
-                                </div>
-                                    <div class="education__content">
-                                        <div class="education__time">
-                                            <span class="education__rounder"></span>
-                                            <!-- <span class="education__line"></span> -->
-                                        </div>
-                                        <div class="education__data bd-grid">
-                                            <h3 class="education__title">Bachaloréat</h3>
-                                            <span class="education__studies">Lycée pierre et marie curie</span>
-                                            <span class="education__year">2010 - 2014</span>
-                                        </div>
-                                    </div>
-                        </div>
-                    </section>
-
-
                     <!--========== SKILLS  ==========-->
                     <section class="skills section" id="skills">
                         <h2 class="section-title"> Compétences </h2>
@@ -204,9 +155,7 @@
                             </ul>
                         </div>
                     </section>
-
                 </div>
-
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
@@ -220,31 +169,20 @@
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">HELPDESK ANALYST</h3>
                                     <span class="experience__company"> 2020 - Présent | TRUST ALGERIA INSURANCE</span>
-                                    <br class="experience__description">Intégration dans les trois poles:<br />   USI : Dévloppement rapide avec Oracle APEX <br/>  RSS :  La gestion et sécurité du parc informatique. </br> Front office : Accès a distance pour fixer les problèmes des agences. </p>
+                                    <div class="experience__description">Intégration dans les trois poles:<br />   USI : Dévloppement rapide avec Oracle APEX <br/>  RSS :  La gestion et sécurité du parc informatique. </div> Front office : Accès a distance Teamviewer & Anydesk. </p>
                                 </div>
                             </div>
-                                <div class="experience__content">
-                                    <div class="experience__time">
-                                        <span class="experience__rounder"></span>
-                                        <span class="experience__line"></span>
-                                    </div>
-                                    <div class="experience__data bd-grid">
-                                        <h3 class="experience__title"> FREELANCE </h3>
-                                        <span class="experience__company"> 2019 - 2020 | Contribution Produit Saas </span>
-                                        <p class="experience__description"> Contribution dans la création d'un produit saas </p>
-                                    </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
                                 </div>
-                                    <div class="experience__content">
-                                        <div class="experience__time">
-                                            <span class="experience__rounder"></span>
-                                            <!-- <span class="experience__line"></span> -->
-                                        </div>
-                                        <div class="experience__data bd-grid">
-                                            <h3 class="experience__title"> Stage pratique réseaux et sécurité informatique </h3>
-                                            <span class="experience__company"> 2018 - 2019 | Département LABGED ANNABA </span>
-                                            <p class="experience__description"> Mettre en place une architecture réseau et la protégé avec un UTM "Pfsense"</p>
-                                        </div>
-                                    </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> Stage pratique réseaux et sécurité informatique </h3>
+                                    <span class="experience__company"> 2018 - 2019 | Département LABGED ANNABA </span>
+                                    <p class="experience__description"> Mettre en place une architecture réseau et la protégé avec un UTM "Pfsense"</p>
+                                </div>
+                            </div>
                         </div>
                     </section>
                     <!--========== CERTIFICATES ==========-->
@@ -254,11 +192,11 @@
                             <div class="certificate__content">
                                 <h3 class="certificate__title">Diplome Master en informatique spécialité SID 2017-2019</h3>
                                 <div class="certificate__description">
-                                   Experience dans le domaine d'intelligence artificielle et l'analyse des données.</div>
+                                   Experience dans le domaine d'intelligence artificielle et l'analyse des données, Dévloppement Java networking</div>
                             </div>
                              <div class="certificate__content">
                                 <h3 class="certificate__title">Diplome Licence académique en informatique 2014-2017</h3>
-                                <div class="certificate__description"> "Fondamentaux, système exploitation et base de données, l'algorithméique" </div>
+                                <div class="certificate__description"> "Fondamentaux, systèmes d'exploitation et base de données, l'algorithméique" </div>
                             </div>
                             <div class="certificate__content">
                                 <h3 class="certificate__title">Diplome en Baccalauréat 2014</h3>
@@ -266,28 +204,6 @@
                             </div>
                         </div>
                     </section>
-
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        <h2 class="section-title">References</h2>
-                        <div class="references__container bd-grid"> 
-                            <div class="references__content bd-grid">
-                                <div class="references_subtitle"> Maître de conférences (B)</div>
-                                 <h3 class="references__title">Mr. BAAZIZ Abdelhalim</h3>
-                                 <ul class="references__contact">
-                                     <li> E-Mail : baaziz@labged.net </li>
-                                 </ul>
-                            </div>
-                            <div class="references__content bd-grid">
-                                <div class="references_subtitle"> Directeur d'organisation et des systèmes d'information </div>
-                                <h3 class="references__title"> Mr MESSARET Larbi </h3>
-                                <ul class="references__contact">
-                                    <li> E-Mail : lmessarat@gmail.com </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
                         <h2 class="section-title">Languages</h2>
